@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title> Expocon Grupo 2 </title>
+        <link href = "https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel = "stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel = "stylesheet" type="text/css" href = "style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar-inverse myNavbar">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="#"> SÃO SABAS</a>
+                <button id="return" onclick="r()">Menu</button>
+            
+        </nav>
+        
+        <center>
+            
+            <section id="welcome"> 
+                <div class="inner">
+                    <br>
+                <h1 id="header">
+                    Bem Vindo a grande:
+                <br>
+                <span id="name">
+                    Expocon 2023
+                </span>
+                </h1>
+                </div>
+                <br>
+                <br>
+            </section>
+
+            <h1 id="desc">Grupo 2</h1>
+
+            <section id="bio">
+                <h1>
+                    Biografia
+                </h1>
+                <div class="line"> </div>
+                <p>
+                    Os seguintes experimentos e suas ideias foram baseadas na ideia de espectros e no famoso:
+                </p>
+                <p>
+                    ISAAC NEWTON
+                </p>
+                <p>
+                    Isaac Newton PRS (Woolsthorpe-by-Colsterworth, 25 de dezembro de 1642jul./ 4 de janeiro de 1643greg. – Kensington, 
+                    20 de março de 1727jul./ 31 de março de 1727greg) foi um matemático, físico, astrônomo, teólogo e autor inglês 
+                    que é amplamente reconhecido como um dos cientistas mais influentes de todos os tempos e como uma figura-chave na 
+                    Revolução Científica.
+                </p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sir_Isaac_Newton_%281643-1727%29.jpg/250px-Sir_Isaac_Newton_%281643-1727%29.jpg">
+            </section>
+
+            <br> <hr> <br>
+
+            <section id="espectro">
+                <h1>
+                    Espectros
+                </h1>
+                <div class="line"> </div>
+                <p>
+                    O espectro visível, ou espectro óptico, é a porção do espectro eletromagnético cuja radiação é composta por fótons capazes de sensibilizar o olho humano de uma pessoa normal. 
+                    Identifica-se a correspondente faixa de radiação por luz visível.
+                </p>
+            </section>
+
+            <br> <hr> <br>
+
+            <section id="exp1">
+                <h1>
+                    Experimento 1 - Espectroscópio
+                </h1>
+                <div class="line"> </div>
+                <p>
+                    O espectroscópio um instrumento que permite visualizar a composição espectral (ou cromática) de um objeto luminoso. Um elemento dispersivo (prisma ou rede de difração) 
+                    colocado no seu interior decompõe a luz que incide sobre a fenda de entrada, produzindo um espectro na região de saída.
+                </p>
+            </section>
+
+            <br> <hr> <br>
+
+            <section id="exp2">
+                <h1>
+                    Experimento 2 - Areia Movediça
+                </h1>
+                <div class="line"> </div>
+                <p>
+                    Quando é exercida uma forte pressão sobre a sua superfície, a mistura comporta-se como sólido, mas quando se deixa de 
+                    exercer a pressão, torna-se um líquido. Essa mistura é uma suspensão com um sólido (amido de milho) disperso em um líquido 
+                    (água).
+
+                </p>
+                <br>
+
+                <h3 onclick="video()"> <img src="../Clicar.jpg" id="clicar" onclick="video()"> Assista o vídeo </h3>
+                <img src="../AreiaMovedica.jpg" id="video">
+            </section>
+
+            <div id="footer">
+                <h4>Desenvolvido por Andre Tanikawa</h4>
+            </div>
+
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <br> <br>
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4>Introdução</h4>
+                    </div>
+        
+                    <div class="modal-body">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        </ol>
+        
+                        <div class="carousel-inner" style="text-align: center;">
+        
+                          <div class="item active">
+                            <p>A Expocon é um trabalho e projeto que tem como objetivo criar ideias e modos de como mudar a educação.</p>
+                            <p>Então para acompanharmos esses desenvolvimentos científicos, fizemos um projeto sobre experimentos da ciência.</p>
+                            <p>No total foram dois, um baseado no Museu Catavento Cultural e o outro um baseado em um cientista popular.</p>
+                            <p>Esperamos que goste!</p>
+                          </div>
+        
+                        </div>
+        
+                      </div>
+                  </div>
+                </div>
+              </div>
+            
+        </center>
+    </body>
+    <script src="main.js"></script>
+</html>

@@ -1,0 +1,170 @@
+body
+{
+    text-align: center;
+    color: black;
+    background-color: rgb(191, 191, 254);
+    justify-content: center;
+}
+
+.profile
+{
+    padding: 50px;
+    text-align: center;
+}
+
+#welcome
+{
+    color: #FFFFFF;
+    bottom: 0;
+    background: blue;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: blue;
+    font-weight: bold;
+}
+
+#name
+{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#welcome, #expocon, #bio, #exp1, #exp2, #densidade, #ima, #espectro, #luz
+{
+    padding: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line
+{
+    height: 3px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu
+{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links:hover
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#writings a
+{
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact
+{
+    background: lightgray;
+}
+
+.myNavbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+hr {
+    height: 10;
+}
+
+img
+{
+    width: 10px;
+}
+
+#return {
+    background-color:rgb(135, 255, 99) ;
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    right: 1%;
+    position: fixed;
+}
+
+p {
+    font-size: 20px;
+}
+
+#header {
+    color: white;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#desc {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+img {
+    width: 300px;
+}
+
+#video {
+    border-color: black;
+    border-width: 3px;
+}
+
+.navbar-header {
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-decoration: underline;
+    color: blue;
+}
+
+#clicar {
+    width: 50px;
+    border-radius: 5px;
+}
