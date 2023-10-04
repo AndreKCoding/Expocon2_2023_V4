@@ -1,0 +1,98 @@
+#header {
+    width: 100%;
+    background-color: rgb(72, 56, 255);
+    padding: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+#text {
+    font-size: 25;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(80, 80, 255);
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    border-width: 5px;
+    border-color: black;
+}
+
+body {
+    background-color: rgb(191, 191, 254);
+}
+
+img {
+    background-color: white;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: black;
+    padding: 10px;
+    height: 200px;
+    width: 350px;
+}
+
+#feed {
+    height: 80px;
+    background-color: green;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#instructions {
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#intro {
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+
+.close {
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+}
+
+#desc {
+    font-size: 25px;
+    text-decoration: underline;
+}
